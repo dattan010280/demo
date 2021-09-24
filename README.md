@@ -81,3 +81,17 @@ curl --location --request POST 'localhost:3000/user' \
 
 {"reason":"create-user.error/already-exists"}
 ```
+
+### Run unit test
+```bash
+clojure -X:test       
+
+Running tests in #{"test"}
+
+Testing app.api-test
+
+Testing app.auth-test
+
+Ran 7 tests containing 14 assertions.
+0 failures, 0 errors.
+```
